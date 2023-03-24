@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lab02</string>
+    <string name="calculate_button">CALCULATE</string>
+    <string name="weight_txt">Weight</string>
+</resources>
