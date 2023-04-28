@@ -1,4 +1,4 @@
-package com.jeff.lab05
+package com.jeff.lab05.ui.movie
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,10 +8,13 @@ import android.view.ViewGroup
 import androidx.cardview.widget.CardView
 import androidx.navigation.findNavController
 import com.google.android.material.floatingactionbutton.FloatingActionButton
+import com.jeff.lab05.R
 
 class BillboardFragment : Fragment() {
+
+
     private lateinit var actionToMovie: CardView
-    private lateinit var actionToNewMovie: FloatingActionButton
+    private lateinit var actionToNewMoview: FloatingActionButton
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -24,15 +27,14 @@ class BillboardFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-
-        actionToMovie = view.findViewById(R.id.movie_1_card)
-        actionToNewMovie = view.findViewById(R.id.action_to_new_movie)
+        actionToMovie = view.findViewById(R.id.id_cardView_movie)
+        actionToNewMoview = view.findViewById(R.id.floating_action_button)
 
         actionToMovie.setOnClickListener {
             it.findNavController().navigate(R.id.movieFragment)
         }
 
-        actionToNewMovie.setOnClickListener {
+        actionToNewMoview.setOnClickListener {
             it.findNavController().navigate(R.id.createMovieFragment)
         }
     }

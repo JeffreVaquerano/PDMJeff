@@ -6,4 +6,7 @@
     <dimen name="card_corner_radius">10dp</dimen>
     <dimen name="gap">10dp</dimen>
     <dimen name="cardTextfield">15dp</dimen>
+
+    <dimen name="mt_title">32dp</dimen>
+    <dimen name="ml_imageMovie">16dp</dimen>
 </resources>
