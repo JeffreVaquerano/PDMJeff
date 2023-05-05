@@ -28,7 +28,7 @@ class CreateMovieFragment : Fragment() {
     ): View {
         // Inflate the layout for this fragment
         //return inflater.inflate(R.layout.fragment_new_movie, container, false)
-        binding = FragmentCreateMovieBinding.inflate(inflater, container, false)
+        binding = FragmentCreateMovieBinding.inflate(inflater, container, false)//Siempre es asi en fragmentos, en actividades es Diferente
         return binding.root
     }
 
