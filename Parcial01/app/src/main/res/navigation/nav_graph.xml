@@ -9,7 +9,14 @@
         android:id="@+id/homeMontana"
         android:name="com.jeff.parcial01.ui.montana.home.HomeMontana"
         android:label="fragment_home_montana"
-        tools:layout="@layout/fragment_home_montana" />
+        tools:layout="@layout/fragment_home_montana" >
+        <action
+            android:id="@+id/action_homeMontana_to_newMontana"
+            app:destination="@id/newMontana" />
+        <action
+            android:id="@+id/action_homeMontana_to_montana"
+            app:destination="@id/montana" />
+    </fragment>
     <fragment
         android:id="@+id/newMontana"
         android:name="com.jeff.parcial01.ui.montana.newmontana.NewMontana"
