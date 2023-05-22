@@ -5,7 +5,6 @@ import android.os.Bundle
 
 import com.jeff.lab08.databinding.ActivityMainBinding
 
-
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
