@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeMontana">
+
+    <fragment
+        android:id="@+id/homeMontana"
+        android:name="com.jeff.parcial01.HomeMontana"
+        android:label="fragment_home_montana"
+        tools:layout="@layout/fragment_home_montana" />
+    <fragment
+        android:id="@+id/newMontana"
+        android:name="com.jeff.parcial01.NewMontana"
+        android:label="fragment_new_montana"
+        tools:layout="@layout/fragment_new_montana" />
+    <fragment
+        android:id="@+id/montana"
+        android:name="com.jeff.parcial01.Montana"
+        android:label="fragment_montana"
+        tools:layout="@layout/fragment_montana" />
+</navigation>

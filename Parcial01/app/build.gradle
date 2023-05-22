@@ -30,9 +30,23 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    dataBinding{
+        enabled true
+    }
 }
 
 dependencies {
+
+    implementation "androidx.nav_graph:nav_graph-fragment-ktx:$nav_version"
+    implementation "androidx.nav_graph:nav_graph-ui-ktx:$nav_version"
+
+    implementation "androidx.activity:activity-ktx:$activity_version"
+
+    implementation "androidx.fragment:fragment-ktx:$fragment_version"
+
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
+
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
