@@ -1,6 +1,5 @@
 package com.jeff.parcial01.repositories
 
-import com.jeff.parcial01.Montana
 import com.jeff.parcial01.data.model.montanaModel
 
 //Agregando Capa Repository

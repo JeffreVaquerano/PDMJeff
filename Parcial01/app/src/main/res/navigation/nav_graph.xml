@@ -7,17 +7,17 @@
 
     <fragment
         android:id="@+id/homeMontana"
-        android:name="com.jeff.parcial01.HomeMontana"
+        android:name="com.jeff.parcial01.ui.montana.home.HomeMontana"
         android:label="fragment_home_montana"
         tools:layout="@layout/fragment_home_montana" />
     <fragment
         android:id="@+id/newMontana"
-        android:name="com.jeff.parcial01.NewMontana"
+        android:name="com.jeff.parcial01.ui.montana.newmontana.NewMontana"
         android:label="fragment_new_montana"
         tools:layout="@layout/fragment_new_montana" />
     <fragment
         android:id="@+id/montana"
-        android:name="com.jeff.parcial01.Montana"
+        android:name="com.jeff.parcial01.ui.montana.Montana"
         android:label="fragment_montana"
         tools:layout="@layout/fragment_montana" />
 </navigation>
